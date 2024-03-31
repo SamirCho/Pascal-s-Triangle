@@ -1,4 +1,4 @@
-let num=20
+let num=5
 
 function factorial(x){
     if(x<=1){
@@ -14,7 +14,7 @@ function choose(n,k){
 let a=[]
 for (let i = 0; i < num; i++) {
     a=[]
-    for (let j = 0; j < i+1; j++) {
+    for (let j = 0; j <= i; j++) {
         a.push(choose(i,j))
     }
     console.log(a)
